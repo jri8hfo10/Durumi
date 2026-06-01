@@ -1111,18 +1111,6 @@ body {
   }
   loop();
 })();
-  
-<audio id="bgm" src="durumitheme.mp3" loop></audio>
-
-<script>
-  // 화면 클릭 시 음악 자동 재생
-  document.addEventListener('click', function() {
-    var audio = document.getElementById('bgm');
-    audio.play().catch(function(error) {
-      console.log("자동 재생 실패:", error);
-    });
-  }, { once: true });
-</script>
 
 /* ═══════════════════════════════
    스크롤 페이드인
